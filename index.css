@@ -1,0 +1,30 @@
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background: linear-gradient(to right, blue, skyblue);
+    padding: 0 !important;
+}
+.navbar-logo img{
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 90px;
+}
+.navbar-logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:700;
+    font-size: 30px;
+    color: bisque;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: bisque;
+    font-weight: 600;
+}
+.navbar-toggler{
+    outline: none !important;
+}
